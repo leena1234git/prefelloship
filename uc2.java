@@ -24,3 +24,15 @@ public void printBoard() {
         printBoard();
         System.out.println("X will play first:");
 }
+
+public void printBoard() {
+    System.out.println("--------------");
+     for (int i = 0; i < 3; i++) {
+       System.out.println("| ");
+    for (int j = 0; j < 3; j++) {
+      System.out,print(board[i][j] + " | ");
+   }
+   System.out.println();
+   System.out.println("--------------");
+ }
+}
